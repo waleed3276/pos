@@ -1,0 +1,1218 @@
+<!DOCTYPE html>
+
+<html
+  lang="en"
+  class="light-style layout-navbar-fixed layout-menu-fixed"
+  dir="ltr"
+  data-theme="theme-default"
+  data-assets-path="assets/"
+  data-template="vertical-menu-template-starter"
+>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
+    />
+
+    <title>Categories</title>
+
+    <meta name="description" content="" />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="assets/img/favicon/favicon.ico"
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons. Uncomment required icon fonts -->
+    <link rel="stylesheet" href="assets/vendor/fonts/boxicons.css" />
+
+    <!-- <link rel="stylesheet" href="../../assets/vendor/fonts/fontawesome.css" /> -->
+    <!-- <link rel="stylesheet" href="../../assets/vendor/fonts/flag-icons.css" /> -->
+
+    <!-- Core CSS -->
+    <link
+      rel="stylesheet"
+      href="assets/vendor/css/rtl/core.css"
+      class="template-customizer-core-css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/vendor/css/rtl/theme-default.css"
+      class="template-customizer-theme-css"
+    />
+    <link rel="stylesheet" href="assets/css/demo.css" />
+
+    <!-- Vendors CSS -->
+    <link
+      rel="stylesheet"
+      href="assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css"
+    />
+    <!-- fontawesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Page CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Helpers -->
+    <script src="assets/vendor/js/helpers.js"></script>
+
+    <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
+    <!--? Template customizer: To hide customizer set displayCustomizer value false in config.js.  -->
+    <script src="assets/vendor/js/template-customizer.js"></script>
+    <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
+    <script src="assets/js/config.js"></script>
+  </head>
+
+  <body>
+    <!-- Layout wrapper -->
+    <div class="layout-wrapper layout-content-navbar">
+      <div class="layout-container">
+        <!-- Menu -->
+
+        <aside
+          id="layout-menu"
+          class="layout-menu menu-vertical menu bg-menu-theme"
+          style="background-color: #ffffff !important"
+        >
+          <div class="app-brand demo">
+            <a href="#" class="app-brand-link">
+              <span class="app-brand-logo demo">
+                <svg
+                  width="26px"
+                  height="26px"
+                  viewBox="0 0 26 26"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <title>icon</title>
+                  <defs>
+                    <linearGradient
+                      x1="50%"
+                      y1="0%"
+                      x2="50%"
+                      y2="100%"
+                      id="linearGradient-1"
+                    >
+                      <stop stop-color="#5A8DEE" offset="0%"></stop>
+                      <stop stop-color="#699AF9" offset="100%"></stop>
+                    </linearGradient>
+                    <linearGradient
+                      x1="0%"
+                      y1="0%"
+                      x2="100%"
+                      y2="100%"
+                      id="linearGradient-2"
+                    >
+                      <stop stop-color="#FDAC41" offset="0%"></stop>
+                      <stop stop-color="#E38100" offset="100%"></stop>
+                    </linearGradient>
+                  </defs>
+                  <g
+                    id="Pages"
+                    stroke="none"
+                    stroke-width="1"
+                    fill="none"
+                    fill-rule="evenodd"
+                  >
+                    <g
+                      id="Login---V2"
+                      transform="translate(-667.000000, -290.000000)"
+                    >
+                      <g
+                        id="Login"
+                        transform="translate(519.000000, 244.000000)"
+                      >
+                        <g
+                          id="Logo"
+                          transform="translate(148.000000, 42.000000)"
+                        >
+                          <g
+                            id="icon"
+                            transform="translate(0.000000, 4.000000)"
+                          >
+                            <path
+                              d="M13.8863636,4.72727273 C18.9447899,4.72727273 23.0454545,8.82793741 23.0454545,13.8863636 C23.0454545,18.9447899 18.9447899,23.0454545 13.8863636,23.0454545 C8.82793741,23.0454545 4.72727273,18.9447899 4.72727273,13.8863636 C4.72727273,13.5423509 4.74623858,13.2027679 4.78318172,12.8686032 L8.54810407,12.8689442 C8.48567157,13.19852 8.45300462,13.5386269 8.45300462,13.8863636 C8.45300462,16.887125 10.8856023,19.3197227 13.8863636,19.3197227 C16.887125,19.3197227 19.3197227,16.887125 19.3197227,13.8863636 C19.3197227,10.8856023 16.887125,8.45300462 13.8863636,8.45300462 C13.5386269,8.45300462 13.19852,8.48567157 12.8689442,8.54810407 L12.8686032,4.78318172 C13.2027679,4.74623858 13.5423509,4.72727273 13.8863636,4.72727273 Z"
+                              id="Combined-Shape"
+                              fill="#4880EA"
+                            ></path>
+                            <path
+                              d="M13.5909091,1.77272727 C20.4442608,1.77272727 26,7.19618701 26,13.8863636 C26,20.5765403 20.4442608,26 13.5909091,26 C6.73755742,26 1.18181818,20.5765403 1.18181818,13.8863636 C1.18181818,13.540626 1.19665566,13.1982714 1.22574292,12.8598734 L6.30410592,12.859962 C6.25499466,13.1951893 6.22958398,13.5378796 6.22958398,13.8863636 C6.22958398,17.8551125 9.52536149,21.0724191 13.5909091,21.0724191 C17.6564567,21.0724191 20.9522342,17.8551125 20.9522342,13.8863636 C20.9522342,9.91761479 17.6564567,6.70030817 13.5909091,6.70030817 C13.2336969,6.70030817 12.8824272,6.72514561 12.5388136,6.77314791 L12.5392575,1.81561642 C12.8859498,1.78721495 13.2366963,1.77272727 13.5909091,1.77272727 Z"
+                              id="Combined-Shape2"
+                              fill="url(#linearGradient-1)"
+                            ></path>
+                            <rect
+                              id="Rectangle"
+                              fill="url(#linearGradient-2)"
+                              x="0"
+                              y="0"
+                              width="7.68181818"
+                              height="7.68181818"
+                            ></rect>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </span>
+              <span class="app-brand-text demo menu-text fw-bold ms-2"
+                >PIMS</span
+              >
+            </a>
+          </div>
+          <ul class="menu-inner py-1">
+            <!-- Page -->
+            <li class="menu-item">
+              <a href="#" class="menu-link">
+                <svg
+                  width="19"
+                  height="19"
+                  viewBox="0 0 19 19"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="menu-icon"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M5.54164 8.70828H3.16665C2.3268 8.70828 1.52135 8.37466 0.92749 7.78079C0.333628 7.18693 0 6.38148 0 5.54164V3.16665C0 2.3268 0.333628 1.52135 0.92749 0.927491C1.52135 0.333629 2.3268 0 3.16665 0H5.54164C6.38148 0 7.18693 0.333629 7.78079 0.927491C8.37466 1.52135 8.70828 2.3268 8.70828 3.16665V5.54164C8.70828 6.38148 8.37466 7.18693 7.78079 7.78079C7.18693 8.37466 6.38148 8.70828 5.54164 8.70828ZM7.12496 3.16665C7.12496 2.74673 6.95815 2.344 6.66121 2.04707C6.36428 1.75014 5.96156 1.58332 5.54164 1.58332H3.16665C2.74673 1.58332 2.344 1.75014 2.04707 2.04707C1.75014 2.344 1.58332 2.74673 1.58332 3.16665V5.54164C1.58332 5.96156 1.75014 6.36428 2.04707 6.66121C2.344 6.95815 2.74673 7.12496 3.16665 7.12496H5.54164C5.96156 7.12496 6.36428 6.95815 6.66121 6.66121C6.95815 6.36428 7.12496 5.96156 7.12496 5.54164V3.16665ZM3.16665 18.9995H5.54164C6.38148 18.9995 7.18693 18.6659 7.78079 18.072C8.37466 17.4782 8.70828 16.6727 8.70828 15.8329V13.4579C8.70828 12.6181 8.37466 11.8126 7.78079 11.2187C7.18693 10.6249 6.38148 10.2913 5.54164 10.2913H3.16665C2.3268 10.2913 1.52135 10.6249 0.92749 11.2187C0.333628 11.8126 0 12.6181 0 13.4579V15.8329C0 16.6727 0.333628 17.4782 0.92749 18.072C1.52135 18.6659 2.3268 18.9995 3.16665 18.9995ZM6.66121 12.3383C6.95815 12.6353 7.12496 13.038 7.12496 13.4579V15.8329C7.12496 16.2528 6.95815 16.6555 6.66121 16.9525C6.36428 17.2494 5.96156 17.4162 5.54164 17.4162H3.16665C2.74673 17.4162 2.344 17.2494 2.04707 16.9525C1.75014 16.6555 1.58332 16.2528 1.58332 15.8329V13.4579C1.58332 13.038 1.75014 12.6353 2.04707 12.3383C2.344 12.0414 2.74673 11.8746 3.16665 11.8746H5.54164C5.96156 11.8746 6.36428 12.0414 6.66121 12.3383ZM13.4583 18.9995H15.8333C16.6731 18.9995 17.4786 18.6659 18.0724 18.072C18.6663 17.4782 18.9999 16.6727 18.9999 15.8329V13.4579C18.9999 12.6181 18.6663 11.8126 18.0724 11.2187C17.4786 10.6249 16.6731 10.2913 15.8333 10.2913H13.4583C12.6185 10.2913 11.813 10.6249 11.2191 11.2187C10.6253 11.8126 10.2917 12.6181 10.2917 13.4579V15.8329C10.2917 16.6727 10.6253 17.4782 11.2191 18.072C11.813 18.6659 12.6185 18.9995 13.4583 18.9995ZM16.9529 12.3383C17.2498 12.6353 17.4166 13.038 17.4166 13.4579V15.8329C17.4166 16.2528 17.2498 16.6555 16.9529 16.9525C16.6559 17.2494 16.2532 17.4162 15.8333 17.4162H13.4583C13.0384 17.4162 12.6357 17.2494 12.3387 16.9525C12.0418 16.6555 11.875 16.2528 11.875 15.8329V13.4579C11.875 13.038 12.0418 12.6353 12.3387 12.3383C12.6357 12.0414 13.0384 11.8746 13.4583 11.8746H15.8333C16.2532 11.8746 16.6559 12.0414 16.9529 12.3383ZM13.4583 8.70828H15.8333C16.6731 8.70828 17.4786 8.37466 18.0724 7.78079C18.6663 7.18693 18.9999 6.38148 18.9999 5.54164V3.16665C18.9999 2.3268 18.6663 1.52135 18.0724 0.927491C17.4786 0.333629 16.6731 0 15.8333 0H13.4583C12.6185 0 11.813 0.333629 11.2191 0.927491C10.6253 1.52135 10.2917 2.3268 10.2917 3.16665V5.54164C10.2917 6.38148 10.6253 7.18693 11.2191 7.78079C11.813 8.37466 12.6185 8.70828 13.4583 8.70828ZM16.9529 2.04707C17.2498 2.344 17.4166 2.74673 17.4166 3.16665V5.54164C17.4166 5.96156 17.2498 6.36428 16.9529 6.66121C16.6559 6.95815 16.2532 7.12496 15.8333 7.12496H13.4583C13.0384 7.12496 12.6357 6.95815 12.3387 6.66121C12.0418 6.36428 11.875 5.96156 11.875 5.54164V3.16665C11.875 2.74673 12.0418 2.344 12.3387 2.04707C12.6357 1.75014 13.0384 1.58332 13.4583 1.58332H15.8333C16.2532 1.58332 16.6559 1.75014 16.9529 2.04707Z"
+                    fill="#252525"
+                  /></svg
+                >&nbsp;&nbsp;
+                <div data-i18n="Page 1">Dashboard</div>
+              </a>
+            </li>
+            <li class="menu-item active open">
+              <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="menu-icon"
+                >
+                  <path
+                    d="M15.8333 1.66667H15V0.833333C15 0.373333 14.6275 0 14.1667 0C13.7058 0 13.3333 0.373333 13.3333 0.833333V1.66667H6.66667V0.833333C6.66667 0.373333 6.29417 0 5.83333 0C5.3725 0 5 0.373333 5 0.833333V1.66667H4.16667C1.86917 1.66667 0 3.53583 0 5.83333V15.8333C0 18.1308 1.86917 20 4.16667 20H15.8333C18.1308 20 20 18.1308 20 15.8333V5.83333C20 3.53583 18.1308 1.66667 15.8333 1.66667ZM4.16667 3.33333H15.8333C17.2117 3.33333 18.3333 4.455 18.3333 5.83333V6.66667H1.66667V5.83333C1.66667 4.455 2.78833 3.33333 4.16667 3.33333ZM15.8333 18.3333H4.16667C2.78833 18.3333 1.66667 17.2117 1.66667 15.8333V8.33333H18.3333V15.8333C18.3333 17.2117 17.2117 18.3333 15.8333 18.3333ZM15.8333 11.6667C15.8333 12.1267 15.4608 12.5 15 12.5H5C4.53917 12.5 4.16667 12.1267 4.16667 11.6667C4.16667 11.2067 4.53917 10.8333 5 10.8333H15C15.4608 10.8333 15.8333 11.2067 15.8333 11.6667ZM10 15C10 15.46 9.6275 15.8333 9.16667 15.8333H5C4.53917 15.8333 4.16667 15.46 4.16667 15C4.16667 14.54 4.53917 14.1667 5 14.1667H9.16667C9.6275 14.1667 10 14.54 10 15Z"
+                    fill="#252525"
+                  /></svg
+                >&nbsp;&nbsp;&nbsp;
+                <div data-i18n="Dashboards">Product</div>
+              </a>
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="#" class="menu-link">
+                    <div data-i18n="Analytics">All</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="add-category.html" class="menu-link">
+                    <div data-i18n="eCommerce">Add New</div>
+                  </a>
+                </li>
+                <li class="menu-item active">
+                  <a href="category.html" class="menu-link">
+                    <div data-i18n="eCommerce">Categories</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="attribute.html" class="menu-link">
+                    <div data-i18n="eCommerce">Attributes</div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="menu-icon"
+                >
+                  <path
+                    d="M15.8333 0H4.16667C3.062 0.00132321 2.00296 0.440735 1.22185 1.22185C0.440735 2.00296 0.00132321 3.062 0 4.16667L0 15.8333C0.00132321 16.938 0.440735 17.997 1.22185 18.7782C2.00296 19.5593 3.062 19.9987 4.16667 20H15.8333C16.938 19.9987 17.997 19.5593 18.7782 18.7782C19.5593 17.997 19.9987 16.938 20 15.8333V4.16667C19.9987 3.062 19.5593 2.00296 18.7782 1.22185C17.997 0.440735 16.938 0.00132321 15.8333 0V0ZM18.3333 4.16667H12.5V1.66667H15.8333C16.4964 1.66667 17.1323 1.93006 17.6011 2.3989C18.0699 2.86774 18.3333 3.50363 18.3333 4.16667ZM9.16667 1.66667H10.8333V5.83333C10.8333 6.05435 10.7455 6.26631 10.5893 6.42259C10.433 6.57887 10.221 6.66667 10 6.66667C9.77899 6.66667 9.56702 6.57887 9.41074 6.42259C9.25446 6.26631 9.16667 6.05435 9.16667 5.83333V1.66667ZM4.16667 1.66667H7.5V4.16667H1.66667C1.66667 3.50363 1.93006 2.86774 2.3989 2.3989C2.86774 1.93006 3.50363 1.66667 4.16667 1.66667V1.66667ZM15.8333 18.3333H4.16667C3.50363 18.3333 2.86774 18.0699 2.3989 17.6011C1.93006 17.1323 1.66667 16.4964 1.66667 15.8333V5.83333H7.5C7.5 6.49637 7.76339 7.13226 8.23223 7.6011C8.70107 8.06994 9.33696 8.33333 10 8.33333C10.663 8.33333 11.2989 8.06994 11.7678 7.6011C12.2366 7.13226 12.5 6.49637 12.5 5.83333H18.3333V15.8333C18.3333 16.4964 18.0699 17.1323 17.6011 17.6011C17.1323 18.0699 16.4964 18.3333 15.8333 18.3333ZM16.6667 15.8333C16.6667 16.0543 16.5789 16.2663 16.4226 16.4226C16.2663 16.5789 16.0543 16.6667 15.8333 16.6667H13.3333C13.1123 16.6667 12.9004 16.5789 12.7441 16.4226C12.5878 16.2663 12.5 16.0543 12.5 15.8333C12.5 15.6123 12.5878 15.4004 12.7441 15.2441C12.9004 15.0878 13.1123 15 13.3333 15H15.8333C16.0543 15 16.2663 15.0878 16.4226 15.2441C16.5789 15.4004 16.6667 15.6123 16.6667 15.8333Z"
+                    fill="black"
+                  /></svg
+                >&nbsp;&nbsp;
+                <div data-i18n="Page 2">Orders</div>
+              </a>
+            </li>
+            <li class="menu-item">
+              <a href="supplier.html" class="menu-link">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="menu-icon"
+                >
+                  <path
+                    d="M16.25 13.3333C16.25 13.7942 15.8775 14.1667 15.4167 14.1667H13.75C13.2892 14.1667 12.9167 13.7942 12.9167 13.3333C12.9167 12.8725 13.2892 12.5 13.75 12.5H15.4167C15.8775 12.5 16.25 12.8725 16.25 13.3333ZM20 12.5V16.6667C20 18.505 18.505 20 16.6667 20H3.33333C1.495 20 0 18.505 0 16.6667V12.5C0 10.6617 1.495 9.16667 3.33333 9.16667H4.16667V3.33333C4.16667 1.495 5.66167 0 7.5 0H12.5C14.3383 0 15.8333 1.495 15.8333 3.33333V9.16667H16.6667C18.505 9.16667 20 10.6617 20 12.5ZM5.83333 9.16667H14.1667V3.33333C14.1667 2.41417 13.4192 1.66667 12.5 1.66667H7.5C6.58083 1.66667 5.83333 2.41417 5.83333 3.33333V9.16667ZM3.33333 18.3333H9.16667V10.8333H3.33333C2.41417 10.8333 1.66667 11.5808 1.66667 12.5V16.6667C1.66667 17.5858 2.41417 18.3333 3.33333 18.3333ZM18.3333 12.5C18.3333 11.5808 17.5858 10.8333 16.6667 10.8333H10.8333V18.3333H16.6667C17.5858 18.3333 18.3333 17.5858 18.3333 16.6667V12.5ZM6.25 12.5H4.58333C4.1225 12.5 3.75 12.8725 3.75 13.3333C3.75 13.7942 4.1225 14.1667 4.58333 14.1667H6.25C6.71083 14.1667 7.08333 13.7942 7.08333 13.3333C7.08333 12.8725 6.71083 12.5 6.25 12.5ZM11.6667 4.16667C11.6667 3.70583 11.2942 3.33333 10.8333 3.33333H9.16667C8.70583 3.33333 8.33333 3.70583 8.33333 4.16667C8.33333 4.6275 8.70583 5 9.16667 5H10.8333C11.2942 5 11.6667 4.6275 11.6667 4.16667Z"
+                    fill="black"
+                  /></svg
+                >&nbsp;&nbsp;
+                <div data-i18n="Page 2">Supplier</div>
+              </a>
+            </li>
+            <!-- <li class="menu-item">
+                        <a href="#" class="menu-link">
+                            <i class="menu-icon tf-icons bx bx-detail"></i>
+                            <div data-i18n="Page 2">POS</div>
+                        </a>
+                    </li> -->
+            <li class="menu-item">
+              <a href="#" class="menu-link">
+                <svg
+                  width="22"
+                  height="22"
+                  viewBox="0 0 22 22"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="menu-icon"
+                >
+                  <g clip-path="url(#clip0_9_225)">
+                    <path
+                      d="M11 7.33334C10.2748 7.33334 9.56587 7.54839 8.96289 7.95129C8.35991 8.35419 7.88994 8.92684 7.61242 9.59684C7.3349 10.2668 7.26229 11.0041 7.40377 11.7153C7.54525 12.4266 7.89446 13.0799 8.40726 13.5927C8.92005 14.1055 9.57339 14.4547 10.2847 14.5962C10.9959 14.7377 11.7332 14.6651 12.4032 14.3876C13.0732 14.11 13.6458 13.6401 14.0487 13.0371C14.4516 12.4341 14.6666 11.7252 14.6666 11C14.6666 10.0275 14.2803 9.09492 13.5927 8.40729C12.9051 7.71965 11.9724 7.33334 11 7.33334ZM11 12.8333C10.6374 12.8333 10.2829 12.7258 9.98144 12.5244C9.67995 12.3229 9.44496 12.0366 9.3062 11.7016C9.16744 11.3666 9.13114 10.998 9.20188 10.6423C9.27261 10.2867 9.44722 9.96004 9.70362 9.70365C9.96002 9.44725 10.2867 9.27264 10.6423 9.2019C10.9979 9.13116 11.3666 9.16747 11.7016 9.30623C12.0366 9.44499 12.3229 9.67997 12.5243 9.98147C12.7258 10.283 12.8333 10.6374 12.8333 11C12.8333 11.4862 12.6402 11.9526 12.2963 12.2964C11.9525 12.6402 11.4862 12.8333 11 12.8333Z"
+                      fill="#252525"
+                    />
+                    <path
+                      d="M19.5195 12.7417L19.1125 12.507C19.2957 11.5101 19.2957 10.4881 19.1125 9.49117L19.5195 9.2565C19.8325 9.07593 20.1068 8.83549 20.3269 8.54889C20.5469 8.26229 20.7084 7.93516 20.802 7.58617C20.8957 7.23717 20.9196 6.87315 20.8726 6.51489C20.8255 6.15664 20.7084 5.81115 20.5278 5.49817C20.3472 5.18518 20.1068 4.91083 19.8202 4.69077C19.5336 4.47071 19.2065 4.30926 18.8575 4.21562C18.5085 4.12199 18.1445 4.09802 17.7862 4.14506C17.4279 4.19211 17.0825 4.30927 16.7695 4.48983L16.3616 4.72542C15.5911 4.06718 14.7058 3.55689 13.75 3.22025V2.75C13.75 2.02065 13.4602 1.32118 12.9445 0.805456C12.4288 0.289731 11.7293 0 11 0C10.2706 0 9.57116 0.289731 9.05543 0.805456C8.53971 1.32118 8.24998 2.02065 8.24998 2.75V3.22025C7.29425 3.5581 6.40917 4.06963 5.63931 4.72908L5.22956 4.49167C4.59746 4.12699 3.84639 4.02836 3.14156 4.21746C2.43674 4.40656 1.8359 4.8679 1.47123 5.5C1.10656 6.1321 1.00792 6.88318 1.19702 7.588C1.38612 8.29282 1.84746 8.89366 2.47956 9.25833L2.88656 9.493C2.70333 10.4899 2.70333 11.5119 2.88656 12.5088L2.47956 12.7435C1.84746 13.1082 1.38612 13.709 1.19702 14.4138C1.00792 15.1187 1.10656 15.8697 1.47123 16.5018C1.8359 17.1339 2.43674 17.5953 3.14156 17.7844C3.84639 17.9735 4.59746 17.8748 5.22956 17.5102L5.63748 17.2746C6.40818 17.9329 7.29388 18.4432 8.24998 18.7798V19.25C8.24998 19.9793 8.53971 20.6788 9.05543 21.1945C9.57116 21.7103 10.2706 22 11 22C11.7293 22 12.4288 21.7103 12.9445 21.1945C13.4602 20.6788 13.75 19.9793 13.75 19.25V18.7798C14.7057 18.4419 15.5908 17.9304 16.3606 17.2709L16.7704 17.5074C17.4025 17.8721 18.1536 17.9707 18.8584 17.7816C19.5632 17.5925 20.1641 17.1312 20.5287 16.4991C20.8934 15.867 20.992 15.1159 20.8029 14.4111C20.6138 13.7063 20.1525 13.1054 19.5204 12.7408L19.5195 12.7417ZM17.1838 9.28033C17.4942 10.4051 17.4942 11.593 17.1838 12.7178C17.1296 12.9136 17.142 13.1218 17.219 13.3098C17.2959 13.4978 17.4332 13.6549 17.6091 13.7564L18.6028 14.3303C18.8135 14.4518 18.9672 14.6521 19.0302 14.887C19.0932 15.1219 19.0603 15.3722 18.9388 15.5829C18.8172 15.7935 18.6169 15.9473 18.382 16.0103C18.1471 16.0733 17.8968 16.0404 17.6861 15.9188L16.6906 15.3432C16.5145 15.2412 16.3095 15.2007 16.1079 15.2281C15.9062 15.2554 15.7194 15.3492 15.5769 15.4944C14.761 16.3274 13.7331 16.9216 12.6041 17.2132C12.4071 17.2638 12.2325 17.3786 12.1079 17.5394C11.9832 17.7002 11.9156 17.898 11.9157 18.1014V19.25C11.9157 19.4931 11.8192 19.7263 11.6472 19.8982C11.4753 20.0701 11.2422 20.1667 10.9991 20.1667C10.7559 20.1667 10.5228 20.0701 10.3509 19.8982C10.179 19.7263 10.0824 19.4931 10.0824 19.25V18.1023C10.0825 17.8989 10.0149 17.7012 9.89027 17.5403C9.76563 17.3795 9.59103 17.2647 9.39398 17.2141C8.26496 16.9214 7.23736 16.3258 6.42214 15.4917C6.27963 15.3464 6.09282 15.2527 5.89117 15.2253C5.68952 15.1979 5.48449 15.2384 5.30839 15.3404L4.31473 15.9152C4.21044 15.9763 4.09509 16.0162 3.97531 16.0326C3.85553 16.049 3.7337 16.0415 3.61683 16.0106C3.49995 15.9797 3.39035 15.926 3.29431 15.8525C3.19828 15.7791 3.11772 15.6874 3.05728 15.5827C2.99683 15.478 2.95769 15.3624 2.94211 15.2425C2.92653 15.1226 2.93481 15.0009 2.96649 14.8842C2.99816 14.7675 3.0526 14.6583 3.12667 14.5627C3.20073 14.4672 3.29297 14.3873 3.39806 14.3275L4.39173 13.7537C4.56768 13.6521 4.70493 13.4951 4.78192 13.3071C4.8589 13.1191 4.87126 12.9109 4.81706 12.7151C4.50664 11.5903 4.50664 10.4024 4.81706 9.27758C4.87029 9.08222 4.85734 8.87474 4.78022 8.68752C4.70311 8.5003 4.56618 8.34387 4.39081 8.24267L3.39715 7.66883C3.18649 7.54728 3.03274 7.34701 2.96974 7.1121C2.90673 6.87719 2.93963 6.62687 3.06119 6.41621C3.18274 6.20555 3.38301 6.05181 3.61792 5.9888C3.85283 5.9258 4.10315 5.95869 4.31381 6.08025L5.30931 6.65592C5.48493 6.75814 5.68953 6.79911 5.89096 6.7724C6.0924 6.74568 6.27925 6.6528 6.42214 6.50833C7.23806 5.6754 8.26595 5.0811 9.39489 4.78958C9.59256 4.73877 9.76761 4.62344 9.89231 4.46188C10.017 4.30031 10.0842 4.10176 10.0833 3.89767V2.75C10.0833 2.50688 10.1799 2.27373 10.3518 2.10182C10.5237 1.92991 10.7569 1.83333 11 1.83333C11.2431 1.83333 11.4763 1.92991 11.6482 2.10182C11.8201 2.27373 11.9166 2.50688 11.9166 2.75V3.89767C11.9165 4.10113 11.9841 4.29884 12.1088 4.45966C12.2334 4.62047 12.408 4.73526 12.6051 4.78592C13.7344 5.07847 14.7623 5.67406 15.5778 6.50833C15.7203 6.65359 15.9071 6.7473 16.1088 6.77469C16.3104 6.80207 16.5155 6.76158 16.6916 6.65958L17.6852 6.08483C17.7895 6.02369 17.9049 5.98379 18.0246 5.96741C18.1444 5.95103 18.2663 5.95851 18.3831 5.98941C18.5 6.02031 18.6096 6.07402 18.7056 6.14745C18.8017 6.22089 18.8822 6.31259 18.9427 6.41728C19.0031 6.52198 19.0423 6.63759 19.0578 6.75747C19.0734 6.87736 19.0651 6.99913 19.0335 7.1158C19.0018 7.23247 18.9474 7.34172 18.8733 7.43726C18.7992 7.5328 18.707 7.61275 18.6019 7.6725L17.6082 8.24633C17.4332 8.34781 17.2966 8.50435 17.2199 8.69155C17.1431 8.87875 17.1304 9.08609 17.1838 9.28125V9.28033Z"
+                      fill="#252525"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_9_225">
+                      <rect width="22" height="22" fill="white" />
+                    </clipPath>
+                  </defs></svg
+                >&nbsp;&nbsp;
+                <div data-i18n="Page 2">Report</div>
+              </a>
+            </li>
+          </ul>
+        </aside>
+        <!-- / Menu -->
+
+        <!-- Layout container -->
+        <div class="layout-page">
+          <!-- Navbar -->
+
+          <nav
+            class="layout-navbar navbar navbar-expand-xl align-items-center bg-navbar-theme"
+            id="layout-navbar"
+            style="background-color: #ffffff !important"
+          >
+            <div class="container-fluid">
+              <div
+                class="layout-menu-toggle navbar-nav align-items-xl-center me-3 me-xl-0 d-xl-0"
+              >
+                <a
+                  class="nav-item nav-link px-0 me-xl-4"
+                  href="javascript:void(0)"
+                >
+                  <i class="bx bx-menu bx-sm"></i>
+                </a>
+              </div>
+              <div class="input-group input-group-merge navbar-input-sec">
+                <span class="input-group-text" id="basic-addon-search31"
+                  ><i class="bx bx-search"></i
+                ></span>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Search products by ID & Name, supplier, Order number "
+                  aria-label="Search..."
+                  aria-describedby="basic-addon-search31"
+                />
+              </div>
+              <div
+                class="navbar-nav-right d-flex align-items-center"
+                id="navbar-collapse"
+              >
+                <ul class="navbar-nav flex-row align-items-center ms-auto">
+                  <!-- User -->
+                  <li>
+                    <i
+                      class="fa-regular fa-bell"
+                      style="margin-right: 20px"
+                    ></i>
+                  </li>
+                  <li class="user-text">Username</li>
+                  <li class="nav-item navbar-dropdown dropdown-user dropdown">
+                    <a
+                      class="nav-link dropdown-toggle hide-arrow"
+                      href="javascript:void(0);"
+                      data-bs-toggle="dropdown"
+                    >
+                      <div class="avatar">
+                        <img
+                          src="assets/img/avatars/1.png"
+                          alt
+                          class="rounded-circle"
+                        />
+                      </div>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <div class="d-flex">
+                            <div class="flex-shrink-0 me-3">
+                              <div class="avatar avatar-online">
+                                <img
+                                  src="assets/img/avatars/1.png"
+                                  alt
+                                  class="rounded-circle"
+                                />
+                              </div>
+                            </div>
+                            <div class="flex-grow-1">
+                              <span class="fw-semibold d-block lh-1"
+                                >John Doe</span
+                              >
+                              <small>Admin</small>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <div class="dropdown-divider"></div>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <i class="bx bx-user me-2"></i>
+                          <span class="align-middle">My Profile</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <i class="bx bx-cog me-2"></i>
+                          <span class="align-middle">Settings</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <span class="d-flex align-items-center align-middle">
+                            <i class="flex-shrink-0 bx bx-credit-card me-2"></i>
+                            <span class="flex-grow-1 align-middle"
+                              >Billing</span
+                            >
+                            <span
+                              class="flex-shrink-0 badge badge-center rounded-pill bg-danger w-px-20 h-px-20"
+                              >4</span
+                            >
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <div class="dropdown-divider"></div>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <i class="bx bx-power-off me-2"></i>
+                          <span class="align-middle">Log Out</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <!--/ User -->
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          <!-- / Navbar -->
+
+          <!-- Content wrapper -->
+          <div class="content-wrapper supplier-sec mt-5">
+            <!-- Content -->
+            <div
+              class="container-xxl flex-grow-1 container-p-y"
+              style="background-color: #f5f5f5"
+            >
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="row">
+                    <div class="col-lg-8 col-md-6">
+                      <h4 class="py-3 breadcrumb-wrapper supplier-top">
+                        Categories
+                        <a href="./add-category.html">
+                          <button type="button" class="btn btn-dark">
+                            Add New
+                          </button>
+                        </a>
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row mt-5">
+                <div class="col-md-12">
+                  <div class="attribute-tabs-sec">
+                    <div class="nav-align-top mb-4">
+                      <ul class="nav nav-tabs tabs-line" role="tablist">
+                        <li class="nav-item">
+                          <button
+                            type="button"
+                            class="nav-link active"
+                            role="tab"
+                            data-bs-toggle="tab"
+                            data-bs-target="#navs-tabs-line-top-home"
+                            aria-controls="navs-tabs-line-top-home"
+                            aria-selected="true"
+                          >
+                            All
+                          </button>
+                        </li>
+                        <li class="nav-item">
+                          <button
+                            type="button"
+                            class="nav-link"
+                            role="tab"
+                            data-bs-toggle="tab"
+                            data-bs-target="#navs-tabs-line-top-profile"
+                            aria-controls="navs-tabs-line-top-profile"
+                            aria-selected="false"
+                          >
+                            Active
+                          </button>
+                        </li>
+                        <li class="nav-item">
+                          <button
+                            type="button"
+                            class="nav-link"
+                            role="tab"
+                            data-bs-toggle="tab"
+                            data-bs-target="#navs-tabs-line-top-messages"
+                            aria-controls="navs-tabs-line-top-messages"
+                            aria-selected="false"
+                          >
+                            Draft
+                          </button>
+                        </li>
+                        <li class="nav-item">
+                          <button
+                            type="button"
+                            class="nav-link"
+                            role="tab"
+                            data-bs-toggle="tab"
+                            data-bs-target="#navs-tabs-line-top-draft"
+                            aria-controls="navs-tabs-line-top-draft"
+                            aria-selected="false"
+                          >
+                            Trash
+                          </button>
+                        </li>
+                      </ul>
+                      <div class="tab-content">
+                        <div
+                          class="tab-pane fade show active"
+                          id="navs-tabs-line-top-home"
+                          role="tabpanel"
+                        >
+                          <div class="table-responsive text-nowrap">
+                            <table class="table">
+                              <thead
+                                style="
+                                  background-color: #f5f5f5;
+                                  border-radius: 4px;
+                                "
+                              >
+                                <tr>
+                                  <th>Title</th>
+                                  <th>Slug</th>
+                                  <th>Products Count</th>
+                                  <th>Status</th>
+                                  <th>Action</th>
+                                </tr>
+                              </thead>
+                              <tbody class="table-border-bottom-0">
+                                <tr>
+                                  <td>Mobile Phone</td>
+                                  <td>Mobile Phone</td>
+                                  <td>24</td>
+                                  <td>
+                                    <span class="badge bg-label-success me-1"
+                                      >Active</span
+                                    >
+                                  </td>
+                                  <td>
+                                    <div class="dropdown">
+                                      <button
+                                        type="button"
+                                        class="btn p-0 dropdown-toggle hide-arrow"
+                                        data-bs-toggle="dropdown"
+                                      >
+                                        Action
+                                      </button>
+                                      <div class="dropdown-menu">
+                                        <a
+                                          class="dropdown-item"
+                                          href="javascript:void(0);"
+                                          ><i class="bx bx-edit-alt me-1"></i>
+                                          Edit</a
+                                        >
+                                        <a
+                                          class="dropdown-item"
+                                          href="javascript:void(0);"
+                                          ><i class="bx bx-trash me-1"></i>
+                                          Delete</a
+                                        >
+                                      </div>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <!--  -->
+                                <tr>
+                                  <td>Samsung Laptops</td>
+                                  <td>Samsung Laptops</td>
+                                  <td>Samsung Laptops</td>
+                                  <td>
+                                    <span class="badge bg-label-warning me-1"
+                                      >Draft</span
+                                    >
+                                  </td>
+                                  <td>
+                                    <div class="dropdown">
+                                      <button
+                                        type="button"
+                                        class="btn p-0 dropdown-toggle hide-arrow"
+                                        data-bs-toggle="dropdown"
+                                      >
+                                        Action
+                                      </button>
+                                      <div class="dropdown-menu">
+                                        <a
+                                          class="dropdown-item"
+                                          href="javascript:void(0);"
+                                          ><i class="bx bx-edit-alt me-1"></i>
+                                          Edit</a
+                                        >
+                                        <a
+                                          class="dropdown-item"
+                                          href="javascript:void(0);"
+                                          ><i class="bx bx-trash me-1"></i>
+                                          Delete</a
+                                        >
+                                      </div>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <!--  -->
+                                <tr>
+                                  <td>Samsung Laptops</td>
+                                  <td>Samsung Laptops</td>
+                                  <td>Samsung Laptops</td>
+                                  <td>
+                                    <span class="badge bg-label-danger me-1"
+                                      >Trash</span
+                                    >
+                                  </td>
+                                  <td>
+                                    <div class="dropdown">
+                                      <button
+                                        type="button"
+                                        class="btn p-0 dropdown-toggle hide-arrow"
+                                        data-bs-toggle="dropdown"
+                                      >
+                                        Action
+                                      </button>
+                                      <div class="dropdown-menu">
+                                        <a
+                                          class="dropdown-item"
+                                          href="javascript:void(0);"
+                                          ><i class="bx bx-edit-alt me-1"></i>
+                                          Edit</a
+                                        >
+                                        <a
+                                          class="dropdown-item"
+                                          href="javascript:void(0);"
+                                          ><i class="bx bx-trash me-1"></i>
+                                          Delete</a
+                                        >
+                                      </div>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <!--  -->
+                                <tr>
+                                  <td>Samsung Laptops</td>
+                                  <td>Samsung Laptops</td>
+                                  <td>Samsung Laptops</td>
+                                  <td>
+                                    <span class="badge bg-label-warning me-1"
+                                      >Draft</span
+                                    >
+                                  </td>
+                                  <td>
+                                    <div class="dropdown">
+                                      <button
+                                        type="button"
+                                        class="btn p-0 dropdown-toggle hide-arrow"
+                                        data-bs-toggle="dropdown"
+                                      >
+                                        Action
+                                      </button>
+                                      <div class="dropdown-menu">
+                                        <a
+                                          class="dropdown-item"
+                                          href="javascript:void(0);"
+                                          ><i class="bx bx-edit-alt me-1"></i>
+                                          Edit</a
+                                        >
+                                        <a
+                                          class="dropdown-item"
+                                          href="javascript:void(0);"
+                                          ><i class="bx bx-trash me-1"></i>
+                                          Delete</a
+                                        >
+                                      </div>
+                                    </div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+
+                          <div class="row mt-5">
+                            <div class="col-md-3"></div>
+                            <div
+                              class="col-lg-6 d-flex align-items-center justify-content-center"
+                            >
+                              <nav aria-label="Page navigation">
+                                <ul class="pagination">
+                                  <li class="page-item prev">
+                                    <a
+                                      class="page-link"
+                                      href="javascript:void(0);"
+                                      ><i class="tf-icon bx bx-chevron-left"></i
+                                    ></a>
+                                  </li>
+                                  <li class="page-item">
+                                    <a
+                                      class="page-link"
+                                      href="javascript:void(0);"
+                                      >1</a
+                                    >
+                                  </li>
+                                  <li class="page-item">
+                                    <a
+                                      class="page-link"
+                                      href="javascript:void(0);"
+                                      >2</a
+                                    >
+                                  </li>
+                                  <li class="page-item active">
+                                    <a
+                                      class="page-link"
+                                      href="javascript:void(0);"
+                                      >3</a
+                                    >
+                                  </li>
+                                  <li class="page-item">
+                                    <a
+                                      class="page-link"
+                                      href="javascript:void(0);"
+                                      >4</a
+                                    >
+                                  </li>
+                                  <li class="page-item">
+                                    <a
+                                      class="page-link"
+                                      href="javascript:void(0);"
+                                      >5</a
+                                    >
+                                  </li>
+                                  <li class="page-item next">
+                                    <a
+                                      class="page-link"
+                                      href="javascript:void(0);"
+                                      ><i
+                                        class="tf-icon bx bx-chevron-right"
+                                      ></i
+                                    ></a>
+                                  </li>
+                                </ul>
+                              </nav>
+                            </div>
+                            <div class="col-md-3"></div>
+                          </div>
+                        </div>
+                        <div
+                          class="tab-pane fade"
+                          id="navs-tabs-line-top-profile"
+                          role="tabpanel"
+                        >
+                          <div class="table-responsive text-nowrap">
+                            <table class="table">
+                              <thead
+                                style="
+                                  background-color: #f5f5f5;
+                                  border-radius: 4px;
+                                "
+                              >
+                                <tr>
+                                  <th>Title</th>
+                                  <th>Slug</th>
+                                  <th>Products Count</th>
+                                  <th>Status</th>
+                                  <th>Action</th>
+                                </tr>
+                              </thead>
+                              <tbody class="table-border-bottom-0">
+                                <tr>
+                                  <td>Mobile Phone</td>
+                                  <td>Mobile Phone</td>
+                                  <td>24</td>
+                                  <td>
+                                    <span class="badge bg-label-success me-1"
+                                      >Active</span
+                                    >
+                                  </td>
+                                  <td>
+                                    <div class="dropdown">
+                                      <button
+                                        type="button"
+                                        class="btn p-0 dropdown-toggle hide-arrow"
+                                        data-bs-toggle="dropdown"
+                                      >
+                                        Action
+                                      </button>
+                                      <div class="dropdown-menu">
+                                        <a
+                                          class="dropdown-item"
+                                          href="javascript:void(0);"
+                                          ><i class="bx bx-edit-alt me-1"></i>
+                                          Edit</a
+                                        >
+                                        <a
+                                          class="dropdown-item"
+                                          href="javascript:void(0);"
+                                          ><i class="bx bx-trash me-1"></i>
+                                          Delete</a
+                                        >
+                                      </div>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <!--  -->
+                                <tr>
+                                  <td>Samsung Laptops</td>
+                                  <td>Samsung Laptops</td>
+                                  <td>Samsung Laptops</td>
+                                  <td>
+                                    <span class="badge bg-label-warning me-1"
+                                      >Draft</span
+                                    >
+                                  </td>
+                                  <td>
+                                    <div class="dropdown">
+                                      <button
+                                        type="button"
+                                        class="btn p-0 dropdown-toggle hide-arrow"
+                                        data-bs-toggle="dropdown"
+                                      >
+                                        Action
+                                      </button>
+                                      <div class="dropdown-menu">
+                                        <a
+                                          class="dropdown-item"
+                                          href="javascript:void(0);"
+                                          ><i class="bx bx-edit-alt me-1"></i>
+                                          Edit</a
+                                        >
+                                        <a
+                                          class="dropdown-item"
+                                          href="javascript:void(0);"
+                                          ><i class="bx bx-trash me-1"></i>
+                                          Delete</a
+                                        >
+                                      </div>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <!--  -->
+                                <tr>
+                                  <td>Samsung Laptops</td>
+                                  <td>Samsung Laptops</td>
+                                  <td>Samsung Laptops</td>
+                                  <td>
+                                    <span class="badge bg-label-danger me-1"
+                                      >Trash</span
+                                    >
+                                  </td>
+                                  <td>
+                                    <div class="dropdown">
+                                      <button
+                                        type="button"
+                                        class="btn p-0 dropdown-toggle hide-arrow"
+                                        data-bs-toggle="dropdown"
+                                      >
+                                        Action
+                                      </button>
+                                      <div class="dropdown-menu">
+                                        <a
+                                          class="dropdown-item"
+                                          href="javascript:void(0);"
+                                          ><i class="bx bx-edit-alt me-1"></i>
+                                          Edit</a
+                                        >
+                                        <a
+                                          class="dropdown-item"
+                                          href="javascript:void(0);"
+                                          ><i class="bx bx-trash me-1"></i>
+                                          Delete</a
+                                        >
+                                      </div>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <!--  -->
+                                <tr>
+                                  <td>Samsung Laptops</td>
+                                  <td>Samsung Laptops</td>
+                                  <td>Samsung Laptops</td>
+                                  <td>
+                                    <span class="badge bg-label-warning me-1"
+                                      >Draft</span
+                                    >
+                                  </td>
+                                  <td>
+                                    <div class="dropdown">
+                                      <button
+                                        type="button"
+                                        class="btn p-0 dropdown-toggle hide-arrow"
+                                        data-bs-toggle="dropdown"
+                                      >
+                                        Action
+                                      </button>
+                                      <div class="dropdown-menu">
+                                        <a
+                                          class="dropdown-item"
+                                          href="javascript:void(0);"
+                                          ><i class="bx bx-edit-alt me-1"></i>
+                                          Edit</a
+                                        >
+                                        <a
+                                          class="dropdown-item"
+                                          href="javascript:void(0);"
+                                          ><i class="bx bx-trash me-1"></i>
+                                          Delete</a
+                                        >
+                                      </div>
+                                    </div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                        <div
+                          class="tab-pane fade"
+                          id="navs-tabs-line-top-messages"
+                          role="tabpanel"
+                        >
+                          <div class="table-responsive text-nowrap">
+                            <table class="table">
+                              <thead
+                                style="
+                                  background-color: #f5f5f5;
+                                  border-radius: 4px;
+                                "
+                              >
+                                <tr>
+                                  <th>Title</th>
+                                  <th>Slug</th>
+                                  <th>Products Count</th>
+                                  <th>Status</th>
+                                  <th>Action</th>
+                                </tr>
+                              </thead>
+                              <tbody class="table-border-bottom-0">
+                                <tr>
+                                  <td>Mobile Phone</td>
+                                  <td>Mobile Phone</td>
+                                  <td>24</td>
+                                  <td>
+                                    <span class="badge bg-label-success me-1"
+                                      >Active</span
+                                    >
+                                  </td>
+                                  <td>
+                                    <div class="dropdown">
+                                      <button
+                                        type="button"
+                                        class="btn p-0 dropdown-toggle hide-arrow"
+                                        data-bs-toggle="dropdown"
+                                      >
+                                        Action
+                                      </button>
+                                      <div class="dropdown-menu">
+                                        <a
+                                          class="dropdown-item"
+                                          href="javascript:void(0);"
+                                          ><i class="bx bx-edit-alt me-1"></i>
+                                          Edit</a
+                                        >
+                                        <a
+                                          class="dropdown-item"
+                                          href="javascript:void(0);"
+                                          ><i class="bx bx-trash me-1"></i>
+                                          Delete</a
+                                        >
+                                      </div>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <!--  -->
+                                <tr>
+                                  <td>Samsung Laptops</td>
+                                  <td>Samsung Laptops</td>
+                                  <td>Samsung Laptops</td>
+                                  <td>
+                                    <span class="badge bg-label-warning me-1"
+                                      >Draft</span
+                                    >
+                                  </td>
+                                  <td>
+                                    <div class="dropdown">
+                                      <button
+                                        type="button"
+                                        class="btn p-0 dropdown-toggle hide-arrow"
+                                        data-bs-toggle="dropdown"
+                                      >
+                                        Action
+                                      </button>
+                                      <div class="dropdown-menu">
+                                        <a
+                                          class="dropdown-item"
+                                          href="javascript:void(0);"
+                                          ><i class="bx bx-edit-alt me-1"></i>
+                                          Edit</a
+                                        >
+                                        <a
+                                          class="dropdown-item"
+                                          href="javascript:void(0);"
+                                          ><i class="bx bx-trash me-1"></i>
+                                          Delete</a
+                                        >
+                                      </div>
+                                    </div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                        <div
+                          class="tab-pane fade"
+                          id="navs-tabs-line-top-draft"
+                          role="tabpanel"
+                        >
+                          <div class="table-responsive text-nowrap">
+                            <table class="table">
+                              <thead
+                                style="
+                                  background-color: #f5f5f5;
+                                  border-radius: 4px;
+                                "
+                              >
+                                <tr>
+                                  <th>Title</th>
+                                  <th>Slug</th>
+                                  <th>Products Count</th>
+                                  <th>Status</th>
+                                  <th>Action</th>
+                                </tr>
+                              </thead>
+                              <tbody class="table-border-bottom-0">
+                                <tr>
+                                  <td>Mobile Phone</td>
+                                  <td>Mobile Phone</td>
+                                  <td>24</td>
+                                  <td>
+                                    <span class="badge bg-label-success me-1"
+                                      >Active</span
+                                    >
+                                  </td>
+                                  <td>
+                                    <div class="dropdown">
+                                      <button
+                                        type="button"
+                                        class="btn p-0 dropdown-toggle hide-arrow"
+                                        data-bs-toggle="dropdown"
+                                      >
+                                        Action
+                                      </button>
+                                      <div class="dropdown-menu">
+                                        <a
+                                          class="dropdown-item"
+                                          href="javascript:void(0);"
+                                          ><i class="bx bx-edit-alt me-1"></i>
+                                          Edit</a
+                                        >
+                                        <a
+                                          class="dropdown-item"
+                                          href="javascript:void(0);"
+                                          ><i class="bx bx-trash me-1"></i>
+                                          Delete</a
+                                        >
+                                      </div>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <!--  -->
+                                <tr>
+                                  <td>Samsung Laptops</td>
+                                  <td>Samsung Laptops</td>
+                                  <td>Samsung Laptops</td>
+                                  <td>
+                                    <span class="badge bg-label-warning me-1"
+                                      >Draft</span
+                                    >
+                                  </td>
+                                  <td>
+                                    <div class="dropdown">
+                                      <button
+                                        type="button"
+                                        class="btn p-0 dropdown-toggle hide-arrow"
+                                        data-bs-toggle="dropdown"
+                                      >
+                                        Action
+                                      </button>
+                                      <div class="dropdown-menu">
+                                        <a
+                                          class="dropdown-item"
+                                          href="javascript:void(0);"
+                                          ><i class="bx bx-edit-alt me-1"></i>
+                                          Edit</a
+                                        >
+                                        <a
+                                          class="dropdown-item"
+                                          href="javascript:void(0);"
+                                          ><i class="bx bx-trash me-1"></i>
+                                          Delete</a
+                                        >
+                                      </div>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <!--  -->
+                                <tr>
+                                  <td>Samsung Laptops</td>
+                                  <td>Samsung Laptops</td>
+                                  <td>Samsung Laptops</td>
+                                  <td>
+                                    <span class="badge bg-label-danger me-1"
+                                      >Trash</span
+                                    >
+                                  </td>
+                                  <td>
+                                    <div class="dropdown">
+                                      <button
+                                        type="button"
+                                        class="btn p-0 dropdown-toggle hide-arrow"
+                                        data-bs-toggle="dropdown"
+                                      >
+                                        Action
+                                      </button>
+                                      <div class="dropdown-menu">
+                                        <a
+                                          class="dropdown-item"
+                                          href="javascript:void(0);"
+                                          ><i class="bx bx-edit-alt me-1"></i>
+                                          Edit</a
+                                        >
+                                        <a
+                                          class="dropdown-item"
+                                          href="javascript:void(0);"
+                                          ><i class="bx bx-trash me-1"></i>
+                                          Delete</a
+                                        >
+                                      </div>
+                                    </div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row product-text">
+                <div class="col-md-12">
+                  <p>8 – 14 of 200+ Categories found</p>
+                </div>
+              </div>
+            </div>
+            <!-- / Content -->
+
+            <!-- Footer -->
+            <footer class="content-footer footer bg-footer-theme">
+              <div
+                class="container-fluid d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column"
+              >
+                <div class="mb-2 mb-md-0 copyright-sec">
+                  © 2023 eComMinds All rights reserved.
+                </div>
+              </div>
+            </footer>
+            <!-- / Footer -->
+
+            <div class="content-backdrop fade"></div>
+          </div>
+          <!-- Content wrapper -->
+        </div>
+        <!-- / Layout page -->
+      </div>
+
+      <!-- Overlay -->
+      <div class="layout-overlay layout-menu-toggle"></div>
+
+      <!-- Drag Target Area To SlideIn Menu On Small Screens -->
+      <div class="drag-target"></div>
+    </div>
+    <!-- / Layout wrapper -->
+
+    <!-- Core JS -->
+    <!-- build:js assets/vendor/js/core.js -->
+    <script src="assets/vendor/libs/jquery/jquery.js"></script>
+    <script src="assets/vendor/libs/popper/popper.js"></script>
+    <script src="assets/vendor/js/bootstrap.js"></script>
+    <script src="assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+
+    <script src="assets/vendor/libs/hammer/hammer.js"></script>
+
+    <script src="assets/vendor/js/menu.js"></script>
+    <!-- endbuild -->
+
+    <!-- Vendors JS -->
+
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- Page JS -->
+  </body>
+</html>

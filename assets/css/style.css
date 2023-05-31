@@ -1,0 +1,632 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.app-brand-logo.demo {
+  display: none;
+}
+
+.bg-menu-theme .menu-text {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700 !important;
+  font-size: 30px;
+  line-height: 43px;
+  letter-spacing: 0.575em;
+  text-transform: capitalize;
+  color: #252525 !important;
+}
+
+.bg-menu-theme .menu-sub > .menu-item > .menu-link:before {
+  display: none;
+}
+
+.menu-sub .menu-item {
+  height: 40px;
+}
+
+.menu-sub .menu-link {
+  height: 40px;
+}
+
+.menu-vertical .menu-item .menu-link {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px !important;
+  line-height: 55px;
+  color: #252525;
+}
+
+.bg-menu-theme .menu-inner > .menu-item.active {
+  background-color: transparent !important;
+}
+
+.bg-menu-theme .menu-item.active > .menu-link:not(.menu-toggle) {
+  background-color: transparent !important;
+  color: #04af49 !important;
+}
+
+.navbar-input-sec {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #252525;
+}
+
+.user-text {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #252525;
+}
+
+.navbar-input-sec .form-control {
+  border: 1px solid #dddddd !important;
+  border-radius: 12px;
+  height: 50px;
+  border-left: 0px !important;
+  border-right: 0 !important;
+}
+
+.navbar-input-sec .input-group-text {
+  border: 1px solid #dddddd !important;
+  border-radius: 12px;
+  height: 50px;
+}
+
+.number-td {
+  color: #04af49;
+}
+
+.number-td span {
+  color: #707070;
+  cursor: pointer;
+}
+
+.page-item.active .page-link,
+.page-item.active .page-link:hover,
+.page-item.active .page-link:focus,
+.pagination li.active > a:not(.page-link),
+.pagination li.active > a:not(.page-link):hover,
+.pagination li.active > a:not(.page-link):focus {
+  background-color: #04af49 !important;
+  border-radius: 50px !important;
+}
+
+.pagination .page-item.active .page-link {
+  border-radius: 50px !important;
+}
+
+.pagination .page-item {
+  border-radius: 50px;
+}
+
+.page-item:not(.first, .last, .next, .prev, .previous) {
+  background-color: transparent !important;
+}
+
+.copyright-sec {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  /* font-size: 14px; */
+  line-height: 20px;
+  color: #252525;
+}
+
+.supplier-sec .table th {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  /* font-size: 15px; */
+  line-height: 22px;
+  color: #252525;
+}
+
+.supplier-top {
+  color: #252525 !important;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  /* font-size: 30px; */
+  line-height: 43px;
+  text-transform: capitalize;
+  margin-bottom: 0px;
+}
+
+.supplier-top button {
+  background-color: #252525;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  /* font-size: 15px; */
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+/* ======================================== EDIT SUPPLIER START HERE ============================== */
+
+.form-floating > .form-control:focus ~ label,
+.form-floating > .form-control:not(:placeholder-shown) ~ label,
+.form-floating > .form-select ~ label {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  /* font-size: 12px; */
+  line-height: 30px;
+  color: #707070 !important;
+}
+
+.form-floating > .form-control:focus,
+.form-floating > .form-control:not(:placeholder-shown),
+.form-floating > .form-control-plaintext:focus,
+.form-floating > .form-control-plaintext:not(:placeholder-shown) {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  /* font-size: 20px; */
+  line-height: 30px;
+  color: #252525;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 12px;
+}
+
+.update-btn button {
+  background: rgba(4, 175, 73, 0.5);
+  border: 1px solid #dddddd;
+  border-radius: 12px;
+  padding: 13px;
+  width: 100%;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.add-supplier .form-control {
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 12px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  /* font-size: 20px; */
+  line-height: 30px;
+  color: #707070;
+}
+
+.add-supplier .add-btn button {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  /* font-size: 20px; */
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+  background: rgba(4, 175, 73, 0.5);
+  border: 1px solid #dddddd;
+  border-radius: 12px;
+  padding: 8px;
+  width: 100%;
+}
+
+/* ========================================= ADD CATEGORY PAGE START ============================= */
+
+.add-category button {
+  background: rgba(4, 175, 73, 0.5);
+  border: 1px solid #dddddd;
+  border-radius: 12px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  /* font-size: 20px; */
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px 100px;
+}
+
+/* ========================================= ALL PRODUCT PAGE START ============================= */
+
+.number-td .fa-eye {
+  color: #707070;
+}
+
+/* ======================================= STORAGE PAGE START HERE ============================ */
+
+.storage-btn {
+  background: #252525 !important;
+  border-radius: 8px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  /* font-size: 15px; */
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  padding: 7px 14px;
+}
+
+.table-responsive .dropdown .btn {
+  background: rgba(53, 84, 209, 0.05);
+  border-radius: 8px;
+  padding: 7px 14px !important;
+}
+
+/* ======================================= CATEGORIES PAGE START HERE ============================ */
+
+.badge {
+  border-radius: 60px !important;
+}
+
+/* ======================================= ATTRIBUTE PAGE START HERE ============================ */
+
+.attribute-tabs-sec {
+  background: #ffffff;
+  box-shadow: 0px 10px 30px rgba(5, 16, 54, 0.03);
+  border-radius: 24px;
+  padding: 30px;
+}
+
+.tab-content {
+  box-shadow: none !important;
+}
+
+.attribute-para-td {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  /* font-size: 15px; */
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  color: #252525;
+}
+
+.attribute-para-td > a {
+  color: #04af49;
+  text-decoration: underline;
+}
+
+.attribute-para-td > a:hover {
+  color: #04af49;
+  text-decoration: underline;
+}
+
+.tabs-line.nav-tabs .nav-link {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  /* font-size: 18px; */
+  line-height: 30px;
+  color: #697488;
+}
+
+.tabs-line.nav-tabs .nav-link.active,
+.tabs-line.nav-tabs .nav-link.active:hover,
+.tabs-line.nav-tabs .nav-link.active:focus,
+.tabs-line > .nav-tabs .nav-link.active,
+.tabs-line > .nav-tabs .nav-link.active:hover,
+.tabs-line > .nav-tabs .nav-link.active:focus {
+  box-shadow: 0 -2px 0 #04af49 inset !important;
+}
+
+.nav .nav-link:hover,
+.nav .nav-link:focus {
+  color: #04af49 !important;
+}
+
+/* ============================================= OFFCANVAS STYLE START : HERE  ======================================== */
+.table .offcanvas .offcanvas-select-method h4 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 35px;
+  text-transform: capitalize;
+  margin-top: 39px;
+  color: #252525;
+}
+.table .nav-pills .nav-link {
+  background: #ffffff;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  color: #252525;
+  height: 70px;
+  width: 210px !important;
+  border: 1px solid #dddddd;
+  border-radius: 12px;
+}
+.table .nav-pills .nav-link:hover {
+  color: #252525 !important;
+}
+.table .offcanvas .offcanvas-btn-save {
+  padding-top: 80px;
+}
+
+.table .offcanvas .offcanvas-btn-save button:hover {
+  background-color: rgba(4, 175, 73, 0.5) !important;
+  border: 1px solid #dddddd !important;
+  color: #ffffff !important;
+}
+.table .offcanvas .offcanvas-btn-save button {
+  background-color: rgba(4, 175, 73, 0.5);
+  border: 1px solid #dddddd;
+  border-radius: 12px;
+  height: 70px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  color: #ffffff;
+}
+.table .nav-pills .active {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  height: 70px;
+  width: 210px !important;
+  color: #ffffff;
+}
+.table .nav-pills .nav-link.active,
+.nav-pills .nav-link.active:hover,
+.nav-pills .nav-link.active:focus {
+  background: #252525 !important;
+  border: 1px solid #dddddd;
+  border-radius: 12px;
+  color: #ffffff !important;
+}
+.table .offcanvas {
+  width: 500px !important;
+  background: #f5f5f5;
+  padding: 21px 25px 0px 31px;
+  border: 1px solid #dddddd;
+  border-radius: 24px 0px 0px 24px;
+}
+.table .offcanvas .offcanvas-info {
+  margin-top: 40px !important;
+}
+.table .offcanvas .offcanvas-add-stock {
+  margin-top: 16px;
+}
+.table .offcanvas .offcanvas-pristine {
+  margin-top: 82px;
+}
+.table .offcanvas .input-group-text {
+  height: auto;
+  border-left: none !important;
+  padding-right: 23px;
+}
+.table .offcanvas .stock-input {
+  height: 70px;
+  padding-left: 20px;
+}
+.offcanvas-backdrop.show {
+  background: rgba(0, 0, 0, 0.58) !important;
+}
+.table .offcanvas-overview-content {
+  border-bottom: 1px solid #dddddd;
+  padding: 16px 0px;
+}
+.table .offcanvas .offcanvas-header h2 {
+  line-height: 43px;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #252525;
+}
+.table .offcanvas .offcanvas-header h4 {
+  line-height: 30px;
+  color: #252525;
+  margin-bottom: 0px;
+  font-family: "Jost";
+  font-weight: 500;
+}
+.table .offcanvas-overview-content h4 {
+  line-height: 30px;
+  margin-bottom: 0px;
+  font-family: "Jost";
+  font-weight: 600;
+  color: #252525;
+}
+.table .offcanvas-body .offcanvas-overview-text h3 #offcanvas-pristine-stack {
+  margin-left: 12px !important;
+}
+.table .offcanvas-body .offcanvas-overview-text h3 span {
+  font-family: "Jost";
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 0px;
+  margin-left: 21px;
+  color: #252525;
+}
+.table .offcanvas-body .offcanvas-overview-text h3 {
+  font-family: "Jost";
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 0px;
+  color: #707070;
+}
+.offcanvas-close {
+  margin-bottom: 7px;
+}
+.table .offcanvas .offcanvas-subheading {
+  margin-bottom: 32px;
+}
+.table .offcanvas .offcanvas-total-stock h5 {
+  line-height: 30px;
+  color: #707070;
+  font-family: "Jost";
+  font-weight: 400;
+  margin-bottom: 0px !important;
+}
+.table .offcanvas .offcanvas-total-stock h5 span {
+  line-height: 30px;
+  color: #04af49;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 0px !important;
+}
+
+/* ============================================= OFFCANVAS STYLE END : HERE  ======================================== */
+/* =============================================== MEDIA QUERIES START HERE ========================== */
+
+@media only screen and (min-width: 1440px) and (max-width: 1920px) {
+  /* ============================================= OFFCANVAS STYLE START : HERE  ======================================== */
+
+  .table .offcanvas .offcanvas-total-stock h5 span,
+  .table .offcanvas .offcanvas-total-stock h5,
+  .table .nav-pills .nav-link,
+  .table .nav-pills .active,
+  .table .offcanvas-body .offcanvas-overview-text h3,
+  .table .offcanvas-body .offcanvas-overview-text h3 span {
+    font-size: 20px;
+  }
+  .table .offcanvas .offcanvas-header h2 {
+    font-size: 30px;
+  }
+  .table .offcanvas .offcanvas-header h4,
+  .table .offcanvas-overview-content h4,
+  .table .offcanvas .offcanvas-btn-save button {
+    font-size: 24px;
+  }
+
+  /* ============================================= OFFCANVAS STYLE END : HERE  ======================================== */
+  .tabs-line.nav-tabs .nav-link {
+    font-size: 18px;
+  }
+
+  .attribute-para-td {
+    font-size: 15px;
+  }
+
+  .add-supplier .add-btn button {
+    font-size: 20px;
+    padding: 20px;
+  }
+
+  .copyright-sec {
+    font-size: 14px;
+  }
+
+  .supplier-top button {
+    font-size: 15px;
+  }
+
+  .supplier-top {
+    font-size: 30px;
+  }
+
+  .supplier-sec .table th {
+    font-size: 15px;
+  }
+
+  .add-supplier .form-control {
+    height: 70px;
+    font-size: 20px;
+  }
+
+  .form-floating > .form-control:focus,
+  .form-floating > .form-control:not(:placeholder-shown),
+  .form-floating > .form-control-plaintext:focus,
+  .form-floating > .form-control-plaintext:not(:placeholder-shown) {
+    height: 70px;
+    font-size: 20px;
+  }
+
+  .update-btn button {
+    font-size: 20px;
+    padding: 20px;
+  }
+
+  .add-category button {
+    font-size: 20px;
+    padding: 10px 100px;
+  }
+}
+
+/* ///////////////////////////////////////////////////////////// */
+
+.add-category-floating-select .form-group {
+  margin-bottom: 0px;
+  padding: 0px 10px;
+}
+
+.add-category-floating-select select {
+  border: none !important;
+  box-shadow: none !important;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(/img/down\ arrow.png) calc(100% - 18px) / 11px no-repeat;
+}
+
+.add-category-floating-select .form-area .form-inner {
+  width: 100%;
+}
+
+.add-category-floating-select .form-group {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.add-category-floating-select select.form-control {
+  padding-top: 10px;
+  transition: 0.15s;
+}
+
+.add-category-floating-select .form-control:focus {
+  color: #707070;
+  background-color: #fff;
+  border-color: #707070;
+  outline: 0;
+  box-shadow: none;
+}
+
+.add-category-floating-select .floating-label {
+  font-size: 16px;
+  font-weight: 400;
+  color: #475f7b;
+  opacity: 1;
+  top: 16px;
+  left: 20px;
+  pointer-events: none;
+  position: absolute;
+  transition: 240ms;
+  margin-bottom: 0;
+  z-index: 1;
+}
+
+.add-category-floating-select .floating-diff .floating-label {
+  opacity: 0;
+}
+
+.add-category-floating-select .floating-diff.focused .floating-label {
+  opacity: 1;
+}
+
+.add-category-floating-select .form-group.focused .floating-label {
+  opacity: 1;
+  color: #7b7f82;
+  top: 4px;
+  left: 19px;
+  font-size: 12px;
+}
+
+.add-category-floating-select .form-group.focused select.form-control {
+  padding-top: 21px;
+}
